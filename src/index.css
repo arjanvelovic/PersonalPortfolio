@@ -12,9 +12,10 @@
     height: calc(100vh - 80px);
 }
 
-.imagecover2 {
+
+#imagecover2 {
     object-fit: cover;
-    height: calc(140vh);
+    height: calc(96vh);
 }
 
 .overlap1 {
@@ -23,7 +24,6 @@
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 18vh;
 }
 
 .overlap2 {
@@ -42,57 +42,86 @@
     right: 0;
 }
 
-.overlap4 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 #TitleText{
-    font-size:35px;
+    font-size:30px;
 }
 
 #HeaderText{
-    font-size:28px;
+    font-size:24px;
 }
 
 #SubtitleText{
-    font-size:15px;
+    font-size:17px;
 }
 
 #ParagraphText{
-    font-size:12px;
+    font-size:15px;
+}
+
+@media only screen and (min-width: 28em) {
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(96vh);
+    }
+}
+
+@media only screen and (min-width: 32em) {
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(106vh);
+    }
+}
+
+@media only screen and (min-width: 36em) {
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(120vh);
+    }
 }
 
 @media only screen and (min-width: 40em) {
-    #TitleText{ font-size:40px;}
-    #HeaderText{ font-size:32px;}
-    #SubtitleText{ font-size:17px;}
-    #ParagraphText{ font-size:14px;}
+    #TitleText{ font-size:34px;}
+    #HeaderText{ font-size:28px;}
+    #SubtitleText{ font-size:18px;}
+    #ParagraphText{ font-size:16px;}
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(140vh);
+    }
 }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 48em) {
-    #TitleText{ font-size: 60px;}
-    #HeaderText{ font-size: 40px;}
-    #SubtitleText{ font-size: 19px;}
+    #TitleText{ font-size: 40px;}
+    #HeaderText{ font-size: 32px;}
+    #SubtitleText{ font-size: 20px;}
     #ParagraphText{ font-size: 16px;}
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(140vh);
+    }
 }
 
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 64em) {
-    #TitleText{ font-size: 70px;}
-    #HeaderText{ font-size: 45px;}
-    #SubtitleText{ font-size: 20px;}
+    #TitleText{ font-size: 50px;}
+    #HeaderText{ font-size: 40px;}
+    #SubtitleText{ font-size: 22px;}
     #ParagraphText{ font-size: 17px;}
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(140vh);
+    }
 }
 
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 80em) {
-    #TitleText{ font-size: 90px}
+    #TitleText{ font-size: 60px}
     #HeaderText{ font-size: 50px}
     #SubtitleText{ font-size: 22px}
     #ParagraphText{ font-size: 18px}
+    #imagecover2 {
+        object-fit: cover;
+        height: calc(140vh);
+    }
 }

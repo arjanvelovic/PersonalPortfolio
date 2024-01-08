@@ -4,6 +4,8 @@ import 'react-pdf/dist/Page/TextLayer.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 //@ts-ignore
+import resume from '../public/VelovicResume.pdf'
+//@ts-ignore
 import graybackground from './assets/images/graybackground.jpg'
 //@ts-ignore
 import scrollgif from './assets/images/blackscrollgif.gif'
@@ -46,11 +48,11 @@ function App() {
       <div ref={scrollpoint1}></div>
       <div className='relative w-full'>
         <img className='imagecover w-screen' src={graybackground}/>
-        <div className='overlap1 grid text-center mx-20 justify-items-center h-fit' >
+        <div className='overlap1 grid text-center mx-8 md:mx-20 mt-20 md:mt-36 justify-items-center h-fit' >
           <img className='w-52' src={headshot}/>
-          <div id='TitleText' className='font-bold'>ARJAN VELOVIC</div>
-          <div id='SubtitleText' className='my-2 max-w-4xl'>Full Stack Engineer crafting seamless digital experiences. Expert in JavaScript, Python, React, Flask. Explore my portfolio for innovative solutions.</div>
-          <button id='SubtitleText' className='bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-16 rounded-md my-5' onClick={scrollTo3}>
+          <div id='TitleText' className='font-bold mt-2'>ARJAN VELOVIC</div>
+          <div id='ParagraphText' className='my-2 max-w-4xl'>Full Stack Engineer crafting seamless digital experiences. Expert in JavaScript, Python, React, Flask. Explore my portfolio for innovative solutions.</div>
+          <button id='ParagraphText' className='bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-16 rounded-md my-5' onClick={scrollTo3}>
             PROJECTS
           </button>
         </div>
@@ -66,7 +68,7 @@ function App() {
         </div>
 
         <div className='overlap3 grid justify-items-center'>
-          <img src={scrollgif} className='h-16 mb-3'/>
+          <img src={scrollgif} className='h-16 mb-16 md:mb-3'/>
         </div>
       </div>
 
@@ -80,11 +82,11 @@ function App() {
         <div className='grid mt-16 lg:w-4/5 xl:w-3/5 mx-8 md:mx-14 justify-items-start grid-cols-1 md:grid-cols-2 gap-8 mb-20'>
           <div className='text-start max-w-lg md:w-full'>
             <div id='SubtitleText' className='font-bold'>Get to know me!</div>
-            <div id='ParagraphText' className='mt-6'>
+            <div id='ParagraphText' className='mt-2 md:mt-6'>
               <p>I'm a seasoned Full Stack Engineer, weaving my magic with Python, JavaScript, React, and Flask. By day, I'm deep in the aerospace industry as a Mechanical Engineer, but I've got my sights set on the thrilling world of software engineering. Always on the quest for growth, I recently wrapped up the Coding Temple Full Stack Bootcamp, diving into the latest development practices and frameworks.</p>
               <p className='mt-3'>My journey is a unique blend of technical expertise and hands-on engineering experience. Whether it's tackling complex problems or crafting elegant solutions, I thrive on the challenge. The boot camp was a game-changer, amplifying my skills and opening new doors in the tech landscape.</p>
               <p className='mt-3'>I'm all about embracing the dynamic nature of the software world and contributing meaningfully to transformative projects. If you're passionate about tech and innovation, let's connect and explore how my diverse background can bring a fresh perspective to your team!</p>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md' onClick={scrollTo4}>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md' onClick={scrollTo4}>
               RESUME
               </button>
 
@@ -131,10 +133,10 @@ function App() {
             I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application 
             </div>
             <div className='flex gap-2 justify-center md:justify-start'>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 <a href='https://teslavelovic.netlify.app/'>LIVE LINK</a>
               </button>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 <a href='https://github.com/arjanvelovic/ReactVehicle'>GITHUB</a>
               </button>
             </div>
@@ -152,10 +154,10 @@ function App() {
             I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application  
             </div>
             <div className='flex gap-2 justify-center md:justify-start'>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 LIVE LINK
               </button>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 GITHUB
               </button>
             </div>
@@ -173,10 +175,10 @@ function App() {
             I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application 
             </div>
             <div className='flex gap-2 justify-center md:justify-start'>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 LIVE LINK
               </button>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 GITHUB
               </button>
             </div>
@@ -193,10 +195,10 @@ function App() {
             I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application
             </div>
             <div className='flex gap-2 justify-center md:justify-start'>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 LIVE LINK
               </button>
-              <button id='SubtitleText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
+              <button id='ParagraphText' className='mt-6 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 py-3 px-10 rounded-md'>
                 GITHUB
               </button>
             </div>
@@ -206,8 +208,8 @@ function App() {
 
       <div ref={scrollpoint4}></div>
       <div className='relative'>
-        <img className='imagecover2 w-full' src={graybackground}/>
-        <div className='overlap4 grid text-center py-20 justify-items-center' >
+        <img id='imagecover2' className='w-full' src={graybackground}/>
+        <div className='overlap1 grid text-center py-20 justify-items-center h-fit md:h-full' >
           <div className='my-0'>
             <div id='HeaderText' className='font-bold'>RESUME</div>
             <hr className="w-full h-1.5 my-2 bg-green-700 rounded"/>
@@ -216,16 +218,14 @@ function App() {
             <div className='mt-2 mx-2 h-fit'>
               <img src={VelovicResume} className='md:h-screen border border-gray-300'/>
             </div>
-            <button id='SubtitleText' className='mt-4 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 rounded-md h-12 w-40 md:w-52 xl:w-60'>
-              <a className="button" href="../assets/VelovicResume.pdf" download = "Velovic_Resume.pdf">
+            <button id='ParagraphText' className='mt-4 bg-green-700 text-white font-bold hover:text-green-700 hover:bg-gray-50 hover:border-green-800 hover:border transition duration-700 rounded-md h-12 w-40 md:w-52 xl:w-60'>
+              <a className="button" href={resume} download = "Velovic_Resume.pdf">
                 Download Resume
               </a>
             </button>
           </div>
         </div>
       </div>
-
-
     </div>
     <Footer/>
       

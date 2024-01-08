@@ -1,4 +1,5 @@
 import { useState} from 'react'
+//@ts-ignore
 import AVlogo from '../assets/images/AVlogoBlack.png'
 
 interface props {
@@ -12,22 +13,26 @@ function Navbar(props:props) {
         setIsVisible(!isVisible)
     }
 
-    const pullUp = () => {
-        setIsVisible(false)
-    }
-
     const scrollpoints = props.scrollpoints
 
     const scrollTo1 = () => {
     scrollpoints[0].current?.scrollIntoView({behavior: 'smooth', block: "end"});
+    setIsVisible(false)
     };
 
     const scrollTo2 = () => {
     scrollpoints[1].current?.scrollIntoView({behavior: 'smooth'});
+    setIsVisible(false)
     };
 
     const scrollTo3 = () => {
     scrollpoints[2].current?.scrollIntoView({behavior: 'smooth'});
+    setIsVisible(false)
+    };
+
+    const scrollTo4 = () => {
+    scrollpoints[3].current?.scrollIntoView({behavior: 'smooth'});
+    setIsVisible(false)
     };
 
     return (
@@ -38,14 +43,17 @@ function Navbar(props:props) {
                 <div>ARJAN VEOVIC</div>
             </div>
             <div className='hidden sm:flex items-center justify-end text-end'>
-                <button className='m-4 px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo1}>
+                <button className='m-1 md:m-4 px-3 md:px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo1}>
                 HOME
                 </button>
-                <button className='m-4 px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo2}>
+                <button className='m-1 md:m-4 px-3 md:px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo2}>
                 ABOUT
                 </button>
-                <button className='m-4 px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo3}>
+                <button className='m-1 md:m-4 px-3 md:px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo3}>
                 PROJECTS
+                </button>
+                <button className='m-1 md:m-4 px-3 md:px-4 py-2 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo4}>
+                RESUME
                 </button>
                 
             </div>
@@ -57,16 +65,20 @@ function Navbar(props:props) {
         </div>
 
         { isVisible ? (
-            <div className='sm:hidden grid grid-col-1 absolute bg-white mt-20 pb-4 w-full shadow-gray-200 shadow-lg '>
-                <button className= 'mt-3 h-10 mx-24 bg-green-200 rounded border-green-300 border hover:bg-green-800 hover:text-gray-200 transition duration-500'>
-                    <a href='/' onClick={pullUp}>Home</a>
-                </button>
-                <button className= 'mt-3 h-10 mx-24 bg-green-200 rounded border-green-300 border hover:bg-green-800 hover:text-gray-200 transition duration-500'>
-                    <a href='/books' onClick={pullUp}>Books</a>
-                </button>
-                <button className= 'mt-3 h-10 mx-24 bg-green-200 rounded border-green-300 border hover:bg-green-800 hover:text-gray-200 transition duration-500'>
-                    <a href='/cart' onClick={pullUp}>Cart</a>
-                </button>
+            <div className='sm:hidden grid grid-col-1 absolute bg-white mt-20 w-full shadow-gray-200 shadow-lg '>
+                <div className='py-2 text-end pe-6 border-y border-gray-300' >
+                    <button className='py-2 px-4 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo1}>HOME</button>
+                </div>
+                <div className='py-2 text-end pe-6 border-y border-gray-300' >
+                    <button className='py-2 px-4 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo2}>ABOUT</button>
+                </div>
+                <div className='py-2 text-end pe-6 border-y border-gray-300' >
+                    <button className='py-2 px-4 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo3}>PROJECTS</button>
+                </div>
+                <div className='py-2 text-end pe-6 border-y border-gray-300' >
+                    <button className='py-2 px-4 hover:text-green-700 underline-offset-4 hover:underline transition duration-300' onClick={scrollTo4}>RESUME</button>
+                </div>
+                
             </div>
             ) : (
             <></>

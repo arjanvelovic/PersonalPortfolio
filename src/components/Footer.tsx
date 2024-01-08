@@ -1,3 +1,4 @@
+//@ts-ignore
 import AVlogo from '../assets/images/AVlogo.png'
 
 function Footer() {
@@ -12,11 +13,9 @@ function Footer() {
 
             </div>
             <div className='flex items-center justify-center'>
-                <a href='/'><i className="fa-brands fa-x-twitter mx-2 hover:text-white transition duration-700"></i></a>
-                <a href='/'><i className="fa-brands fa-instagram mx-2 hover:text-white transition duration-700"></i></a>
-                <a href='/'><i className="fa-brands fa-facebook mx-2 hover:text-white transition duration-700"></i></a>
-                <a href='/'><i className="fa-brands fa-youtube mx-2 hover:text-white transition duration-700"></i></a>
-
+                <a href='https://www.linkedin.com/in/arjan-velovic/'><i className="fa-brands fa-linkedin mx-3 hover:text-white transition duration-700"></i></a>
+                <a href='https://github.com/arjanvelovic'><i className="fa-brands fa-github mx-3 hover:text-white transition duration-700"></i></a>
+                <a href='mailto:arjanvelovic@gmail.com'><i className="email-button fa-solid fa-envelope mx-3 hover:text-white transition duration-700"></i></a>
             </div>
       </footer>
 );}

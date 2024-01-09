@@ -93,7 +93,8 @@ const PortfolioInfo:Object = {
 
     'footer': {
         'logo': 'images/logo.png',
-        'copyright': 'Arjan Velovic © 2024',
+        'copyright': '©2024 created by Arjan Velovic',
+        'crlink': 'https://velovicportfolio.netlify.app/',
         'links': [
             {
                 'name': 'linkedin',

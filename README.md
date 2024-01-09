@@ -14,3 +14,6 @@ To fully costumize the porfoliopage to a specific user you must:
 - upload pictures for your projects
 - upload a picture of your resume
 - upload a pdf of your resume
+
+Live link for my portfolio:
+https://velovicportfolio.netlify.app/

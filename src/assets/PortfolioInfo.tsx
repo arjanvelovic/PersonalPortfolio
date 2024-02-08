@@ -2,7 +2,7 @@ const PortfolioInfo:Object = {
     'navbar': {
         'name': 'Arjan Velovic',
         'logo': 'images/logoBlack.png',
-        'sections': ['Home', 'About', 'Projects', 'Resume']
+        'sections': ['Home', 'About', 'Projects', 'Resume'],
     },
 
     'home': {
@@ -46,7 +46,7 @@ const PortfolioInfo:Object = {
         'section4': 'Resume',
 
         'skilltitle': 'My Skills',
-        'skills': ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'Flask', 'Django', 'SQL', 'MATLAB', 'HTML', 'CSS', 'TailWind', 'BootStrap', 'GIT', 'GitHub', 'Responsive Design']
+        'skills': ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'Flask', 'Django', 'POSTGRESQL', 'SQLITE', 'MATLAB', 'HTML', 'CSS', 'TailWind', 'BootStrap', 'MUI', 'Jinja', 'Next', 'GIT', 'GitHub', 'Firebase', 'CATIA', 'SolidWorks', 'AutoCAD']
     },
 
     'projects': {
@@ -61,25 +61,25 @@ const PortfolioInfo:Object = {
                 'image': 'images/teslaProject.png'
             },
             {
-                'title': 'Tesla Webpage Clone2',
-                'description': 'I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application',
-                'link': 'https://teslavelovic.netlify.app/',
-                'github': 'https://github.com/arjanvelovic/ReactVehicle',
-                'image': 'images/teslaProject.png'
+                'title': 'Bidding Bazzar',
+                'description': 'A Flask-powered auction webpage, where users can create accounts, list items, place bids, and manage profiles seamlessly. With real-time bidding facilitated by WebSocket technology, the platform prioritizes technical excellence with robust error handling, data validation, and security measures.',
+                'link': 'https://biddingbazzar.onrender.com/',
+                'github': 'https://github.com/arjanvelovic/BiddingBazzar',
+                'image': 'images/projectBiddingBazzar.png'
             },
             {
-                'title': 'Tesla Webpage Clone3',
-                'description': 'I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application',
-                'link': 'https://teslavelovic.netlify.app/',
-                'github': 'https://github.com/arjanvelovic/ReactVehicle',
-                'image': 'images/teslaProject.png'
+                'title': 'Weather App',
+                'description': 'This is a weather app which displays the current, hourly, and 7 day forecast of searched locations in the United States. The app was build with react and is primary written in typescript. The app makes API request to the National Weather Service for weather data and GeoCode for location information based on user inputs.',
+                'link': 'https://velovicweatherapp.netlify.app/',
+                'github': 'https://github.com/arjanvelovic/weatherapp',
+                'image': 'images/projectWeather.png'
             },
             {
-                'title': 'Tesla Webpage Clone4',
-                'description': 'I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application',
-                'link': 'https://teslavelovic.netlify.app/',
-                'github': 'https://github.com/arjanvelovic/ReactVehicle',
-                'image': 'images/teslaProject.png'
+                'title': 'BlackJack Object Oriented',
+                'description': 'A python script for blackjack, meticulously crafted with object-oriented programming. It includes logic for the complete ruleset, such as splitting, doubling down, and insurance.',
+                'link': 'https://codesandbox.io/p/devbox/blackjack-969y9y?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clscoe1er0006356gz5behnp4%2522%252C%2522sizes%2522%253A%255B100%252C0%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clscoe1er0002356gvm09bt06%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clscoe1er0004356ghaiqvzya%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clscoe1er0005356grgy1wcga%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B52.75877924018622%252C47.24122075981378%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clscoe1er0002356gvm09bt06%2522%253A%257B%2522id%2522%253A%2522clscoe1er0002356gvm09bt06%2522%252C%2522tabs%2522%253A%255B%255D%257D%252C%2522clscoe1er0005356grgy1wcga%2522%253A%257B%2522id%2522%253A%2522clscoe1er0005356grgy1wcga%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clscoe1er0003356g1admawr7%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%257D%255D%252C%2522activeTabId%2522%253A%2522clscoe1er0003356g1admawr7%2522%257D%252C%2522clscoe1er0004356ghaiqvzya%2522%253A%257B%2522id%2522%253A%2522clscoe1er0004356ghaiqvzya%2522%252C%2522tabs%2522%253A%255B%255D%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Afalse%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D',
+                'github': 'https://github.com/arjanvelovic/BlackJack',
+                'image': 'images/projectBlackJack.png'
             },
         ],
     },

@@ -54,7 +54,6 @@ function Navbar(props:props) {
         scrollpoints[3].current?.scrollIntoView({behavior: 'smooth'});
     };
 
-
     const scrollTo1 = () => {
     scrollpoints[0].current?.scrollIntoView({behavior: 'smooth', block: "end"});
     };

@@ -19,7 +19,7 @@ function Home(props:props) {
 
       <img className='imagecover w-screen' src={homeInfo['background']}/>
 
-      <div className='overlap1 grid text-center mx-8 md:mx-20 mt-10 justify-items-center h-fit' >
+      <div className='overlap1 grid text-center mx-8 md:mx-20 mt-5 md:mt-20 xl:mt-40 justify-items-center h-fit' >
         <img className='w-52' src={homeInfo['image']}/>
         <div className='TitleText font-bold mt-2 uppercase'>{homeInfo['title']}</div>
         <div className='ParagraphText my-2 max-w-4xl'>{homeInfo['blurb']}</div>
@@ -37,7 +37,7 @@ function Home(props:props) {
       </div>
 
       <div className='overlap3 grid justify-items-center'>
-        <img src={homeInfo['scrollgif']} className='h-16 mb-6 md:mb-3'/>
+        <img src={homeInfo['scrollgif']} className='h-16 mb-3'/>
       </div>
 
     </div>

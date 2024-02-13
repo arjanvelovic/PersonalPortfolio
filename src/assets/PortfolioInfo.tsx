@@ -55,8 +55,8 @@ const PortfolioInfo:Object = {
         'projects': [
             {
                 'title': 'Tesla Webpage Clone',
-                'description': 'I created a mock Tesla Webpage. I was inspired by the beautiful UI. It was a great experience for me to build the entire full stack application',
-                'link': 'https://teslavelovic.netlify.app/',
+                'description': 'This project aims to replicate the functionality and design of the Tesla website using React for the front end and Flask for the back end. The project utilizes TypeScript, Python, and HTML to achieve its functionality.',
+                'link': 'https://velovictesla2.netlify.app/',
                 'github': 'https://github.com/arjanvelovic/ReactVehicle',
                 'image': 'images/teslaProject.png'
             },
@@ -94,7 +94,7 @@ const PortfolioInfo:Object = {
     'footer': {
         'logo': 'images/logo.png',
         'copyright': '©2024 created by Arjan Velovic',
-        'crlink': 'https://velovicportfolio.netlify.app/',
+        'crlink': 'https://velovicportfolio2.netlify.app/',
         'links': [
             {
                 'name': 'linkedin',

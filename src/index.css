@@ -15,7 +15,7 @@
 
 .imagecover2 {
     object-fit: cover;
-    height: calc(96vh);
+    height: calc(108vh);
 }
 
 .overlap1 {
@@ -61,7 +61,6 @@
 @media only screen and (min-width: 32em) {
     .imagecover2 {
         object-fit: cover;
-        height: calc(106vh);
     }
 }
 

@@ -55,7 +55,7 @@ const PortfolioInfo:Object = {
         'projects': [
             {
                 'title': 'Tesla Webpage Clone',
-                'description': 'This project aims to replicate the functionality and design of the Tesla website using React for the front end and Flask for the back end. The project utilizes TypeScript, Python, and HTML to achieve its functionality.',
+                'description': 'Developed a full stack Tesla clone website with a clean and beautiful user interface with a React frontend and a Flask backend. Utilized TypeScript, Python, JavaScript, SQL, and HTML/CSS to replicate the functionality and design of the official Tesla website.',
                 'link': 'https://velovictesla2.netlify.app/',
                 'github': 'https://github.com/arjanvelovic/ReactVehicle',
                 'image': 'images/teslaProject.png'

@@ -21,7 +21,7 @@ This React application is fully customizable to tailor it to your specific needs
 7. Include a picture of your resume.
 8. Upload a PDF of your resume.
 
-### [Live Link](https://velovicportfolio2.netlify.app/.)
+### [Live Link](https://velovic.netlify.app/.)
 
 Feel free to explore and customize this portfolio template for your own use!
 

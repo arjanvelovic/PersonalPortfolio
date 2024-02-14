@@ -33,7 +33,7 @@ const PortfolioInfo:Object = {
 
     'about':{
         'title': 'About Me',
-        'subtitle': 'Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology',
+        'subtitle': '',
         'abouttitle': 'Get to know me!',
         'abouttext': [
             "I'm a seasoned Full Stack Engineer, weaving my magic with Python, JavaScript, React, and Flask. By day, I'm deep in the aerospace industry as a Mechanical Engineer, but I've got my sights set on the thrilling world of software engineering. Always on the quest for growth, I recently wrapped up the Coding Temple Full Stack Bootcamp, diving into the latest development practices and frameworks.",
@@ -51,14 +51,14 @@ const PortfolioInfo:Object = {
 
     'projects': {
         'title': 'Projects',
-        'subtitle': 'Here you will find some of the personal and clients projects that I created with each project containing its own case study',
+        'subtitle': '',
         'projects': [
             {
                 'title': 'Tesla Webpage Clone',
                 'description': 'Developed a full stack Tesla clone website with a clean and beautiful user interface with a React frontend and a Flask backend. Utilized TypeScript, Python, JavaScript, SQL, and HTML/CSS to replicate the functionality and design of the official Tesla website.',
-                'link': 'https://velovictesla2.netlify.app/',
+                'link': 'https://velovictesla.netlify.app/',
                 'github': 'https://github.com/arjanvelovic/ReactVehicle',
-                'image': 'images/teslaProject.png'
+                'image': 'images/projectTesla.png'
             },
             {
                 'title': 'Bidding Bazzar',
@@ -70,7 +70,7 @@ const PortfolioInfo:Object = {
             {
                 'title': 'Weather App',
                 'description': 'This is a weather app which displays the current, hourly, and 7 day forecast of searched locations in the United States. The app was build with react and is primary written in typescript. The app makes API request to the National Weather Service for weather data and GeoCode for location information based on user inputs.',
-                'link': 'https://velovicweatherapp.netlify.app/',
+                'link': 'https://velovicweather.netlify.app/',
                 'github': 'https://github.com/arjanvelovic/weatherapp',
                 'image': 'images/projectWeather.png'
             },
@@ -93,8 +93,8 @@ const PortfolioInfo:Object = {
 
     'footer': {
         'logo': 'images/logo.png',
-        'copyright': '©2024 created by Arjan Velovic',
-        'crlink': 'https://velovicportfolio2.netlify.app/',
+        'copyright': '©2024 Created by Arjan Velovic',
+        'crlink': 'https://velovic.netlify.app/',
         'links': [
             {
                 'name': 'linkedin',

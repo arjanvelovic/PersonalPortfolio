@@ -54,11 +54,11 @@ const PortfolioInfo:Object = {
         'subtitle': '',
         'projects': [
             {
-                'title': 'Tesla Webpage Clone',
-                'description': 'Developed a full stack Tesla clone website with a clean and beautiful user interface with a React frontend and a Flask backend. Utilized TypeScript, Python, JavaScript, SQL, and HTML/CSS to replicate the functionality and design of the official Tesla website.',
-                'link': 'https://velovictesla.netlify.app/',
-                'github': 'https://github.com/arjanvelovic/ReactVehicle',
-                'image': 'images/projectTesla.png'
+                'title': 'Specialized Website',
+                'description': "Developed a sleek full-stack website, mirroring Specialized Bike's commerce platform. It utilizes React TypeScript for the frontend and Flask Python for the backend, managing user operations, authentication, cart functionalities, and secure payments. Ensuring performance and security, the website delivers a seamless shopping experience, demonstrating proficiency in modern web development technologies.",
+                'link': 'https://specializedvelovic.netlify.app',
+                'github': 'https://github.com/arjanvelovic/SpecializedReact',
+                'image': 'images/projectSpecailized.png'
             },
             {
                 'title': 'Bidding Bazzar',
@@ -75,6 +75,13 @@ const PortfolioInfo:Object = {
                 'image': 'images/projectWeather.png'
             },
             {
+                'title': 'Tesla Webpage Clone',
+                'description': 'Developed a full stack Tesla clone website with a clean and beautiful user interface with a React frontend and a Flask backend. Utilized TypeScript, Python, JavaScript, SQL, and HTML/CSS to replicate the functionality and design of the official Tesla website.',
+                'link': 'https://velovictesla.netlify.app/',
+                'github': 'https://github.com/arjanvelovic/ReactVehicle',
+                'image': 'images/projectTesla.png'
+            },
+            {
                 'title': 'BlackJack Object Oriented',
                 'description': 'A python script for blackjack, meticulously crafted with object-oriented programming. It includes logic for the complete ruleset, such as splitting, doubling down, and insurance.',
                 'link': 'https://codesandbox.io/p/devbox/blackjack-969y9y?layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clscoe1er0006356gz5behnp4%2522%252C%2522sizes%2522%253A%255B100%252C0%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clscoe1er0002356gvm09bt06%2522%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clscoe1er0004356ghaiqvzya%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clscoe1er0005356grgy1wcga%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B52.75877924018622%252C47.24122075981378%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clscoe1er0002356gvm09bt06%2522%253A%257B%2522id%2522%253A%2522clscoe1er0002356gvm09bt06%2522%252C%2522tabs%2522%253A%255B%255D%257D%252C%2522clscoe1er0005356grgy1wcga%2522%253A%257B%2522id%2522%253A%2522clscoe1er0005356grgy1wcga%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clscoe1er0003356g1admawr7%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%257D%255D%252C%2522activeTabId%2522%253A%2522clscoe1er0003356g1admawr7%2522%257D%252C%2522clscoe1er0004356ghaiqvzya%2522%253A%257B%2522id%2522%253A%2522clscoe1er0004356ghaiqvzya%2522%252C%2522tabs%2522%253A%255B%255D%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Afalse%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D',
@@ -87,8 +94,8 @@ const PortfolioInfo:Object = {
     'resume': {
         'background': 'images/background.jpg',
         'title' : 'Resume',
-        'image' : 'images/VelovicResume.jpg',
-        'pdf': '/files/VelovicResume.pdf'
+        'image' : 'images/Velovic_Resume.jpg',
+        'pdf': '/files/Velovic_Resume.pdf'
     },
 
     'footer': {

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -58,50 +58,57 @@
     font-size:15px;
 }
 
-@media only screen and (min-width: 32em) {
-    .imagecover2 {
-        object-fit: cover;
-    }
+/* xxs breakpoint */
+@media only screen and (min-width: 512px) {
 }
 
-@media only screen and (min-width: 36em) {
+/* xs breakpoint */
+@media only screen and (min-width: 576px) {
     .imagecover2 {
         object-fit: cover;
         height: calc(120vh);
     }
 }
 
-@media only screen and (min-width: 40em) {
+/* sm breakpoint */
+@media only screen and (min-width: 640px) {
     .TitleText{ font-size:34px;}
     .HeaderText{ font-size:28px;}
     .SubtitleText{ font-size:18px;}
     .ParagraphText{ font-size:16px;}
     .imagecover2 {
         object-fit: cover;
-        height: calc(140vh);
+        height: calc(150vh);
     }
 }
 
-/* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 48em) {
+/* md breakpoint */
+@media only screen and (min-width: 768px) {
     .TitleText{ font-size: 40px;}
     .HeaderText{ font-size: 32px;}
     .SubtitleText{ font-size: 20px;}
     .ParagraphText{ font-size: 16px;}
 }
 
-/* Large devices such as laptops (1024px and up) */
-@media only screen and (min-width: 64em) {
+/* lg breakpoint */
+@media only screen and (min-width: 1024px) {
     .TitleText{ font-size: 50px;}
     .HeaderText{ font-size: 40px;}
     .SubtitleText{ font-size: 22px;}
     .ParagraphText{ font-size: 17px;}
 }
 
-/* Largest devices such as desktops (1280px and up) */
-@media only screen and (min-width: 80em) {
+/* xl breakpoint */
+@media only screen and (min-width: 1280px) {
+    .TitleText{ font-size: 60px}
+    .HeaderText{ font-size: 45px}
+}
+
+/* 2xl breakpoint */
+@media only screen and (min-width: 1536px) {
     .TitleText{ font-size: 70px}
     .HeaderText{ font-size: 50px}
     .SubtitleText{ font-size: 22px}
     .ParagraphText{ font-size: 18px}
 }
+

@@ -8,17 +8,17 @@
 }
 
 .imagecover {
-    background-image: url('images/background.jpg');
+    background-image: url('../public/images/background.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
-    min-height: calc(100vh - 80px);
+    min-height: calc(100dvh - 80px);
 }
 
 .imagecover2 {
-    background-image: url('images/background.jpg');
+    background-image: url('../public/images/background.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
 }
 

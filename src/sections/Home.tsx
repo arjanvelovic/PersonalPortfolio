@@ -35,7 +35,7 @@ function Home(props:props) {
       </div>
 
       <div className='col-span-12 flex md:hidden justify-center items-end'>
-        <img src={homeInfo['scrollgif']} className='h-16 mb-3'/>
+        <img src={homeInfo['scrollgif']} className='h-16 mb-4'/>
       </div>
 
     </div>

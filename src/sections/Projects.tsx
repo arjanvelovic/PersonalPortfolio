@@ -19,17 +19,17 @@ function Projects(props:props) {
       </div>
 
       {projectsInfo['projects'].map((project:any) => (
-        <div key = {project['title']} className='grid my-16 lg:w-5/6 xl:w-4/5 mx-5 justify-items-center grid-cols-1 md:grid-cols-2 gap-4 items-center'>
+        <div key = {project['title']} className='grid my-8 md:my-14 lg:w-5/6 xl:w-4/5 mx-5 justify-items-center grid-cols-1 md:grid-cols-2 gap-4 items-center'>
           <div>
             <img className='w-full' src={project['image']}/>
           </div>
           
           <div className='text-center md:text-start'>
             <div className='font-bold SubtitleText'>{project['title']}</div>
-            <div className='mt-4 max-w-lg ParagraphText'>{project['description']}</div>
+            <div className='mt-2 md:mt-4 max-w-lg ParagraphText'>{project['description']}</div>
             <div className='flex gap-2 justify-center md:justify-start'>
-              <ColorButton children = {<a href={project['link']}>LIVE LINK</a>} className='py-3 px-10 mt-6'/>
-              <ColorButton children = {<a href={project['github']}>GITHUB</a>} className='py-3 px-10 mt-6'/>
+              <ColorButton children = {<a href={project['link']}>LIVE LINK</a>} className='py-3 px-10 mt-3 md:mt-6'/>
+              <ColorButton children = {<a href={project['github']}>GITHUB</a>} className='py-3 px-10 mt-3 md:mt-6'/>
             </div>
           </div>
         </div>

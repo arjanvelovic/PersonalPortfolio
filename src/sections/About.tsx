@@ -24,7 +24,7 @@ function About(props:props) {
         <div className='lg:w-4/5 xl:w-3/5 SubtitleText'>{aboutInfo['subtitle']}</div>
       </div>
 
-      <div className='grid mt-16 lg:w-4/5 xl:w-3/5 mx-8 md:mx-14 justify-items-start grid-cols-1 md:grid-cols-2 gap-8 mb-20'>
+      <div className='grid mt-8 md:mt-16 lg:w-4/5 xl:w-3/5 mx-8 md:mx-14 justify-items-start grid-cols-1 md:grid-cols-2 gap-8 mb-20'>
 
         <div className='text-start max-w-lg md:w-full'>
           <div className='font-bold SubtitleText'>{aboutInfo['abouttitle']}</div>
@@ -34,13 +34,13 @@ function About(props:props) {
             <p key={abouttext} className='mt-3'>{abouttext}</p>
             ))}
 
-          <ColorButton onClick={scrollTo4} children={aboutInfo['section4']} className='mt-6 py-3 px-10 uppercase' />
+          <ColorButton onClick={scrollTo4} children={aboutInfo['section4']} className='mt-2 md:mt-6 py-3 px-10 uppercase' />
           </div>
         </div>
 
         <div className='text-start w-full'>
           <div className='font-bold mx-2 SubtitleText'>{aboutInfo['skilltitle']}</div>
-          <div className='mt-4 ParagraphText'>
+          <div className='mt-2 md:mt-4 ParagraphText'>
           {aboutInfo['skills'].map((skill:any) => (
             <button key={skill} disabled className='bg-gray-200 p-3 rounded mx-2 mt-3'>{skill}</button>
             ))}

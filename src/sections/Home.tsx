@@ -15,18 +15,9 @@ function Home(props:props) {
   }
 
   return (
-    <div className='relative w-full'>
+    <div className='imagecover grid grid-cols-12'>
 
-      <img className='imagecover w-screen ' src={homeInfo['background']}/>
-
-      <div className='overlap1 grid text-center mx-8 md:mx-20 mt-6 md:mt-0 h-fit md:h-full md:content-center place-items-center' >
-        <img className='w-52' src={homeInfo['image']}/>
-        <div className='TitleText font-bold mt-2 uppercase'>{homeInfo['title']}</div>
-        <div className='ParagraphText my-2 max-w-4xl'>{homeInfo['blurb']}</div>
-        <ColorButton onClick={scrollTo3} children={homeInfo['section3']} className='py-3 px-16 my-5 uppercase'/>
-      </div>
-
-      <div className='overlap2 hidden md:grid grid-rows-3 items-center h-full'>
+      <div className='hidden md:grid grid-rows-3 items-center h-full'>
         <div className='row-span-1'/>
         <div className='bg-gray-50 h-48 grid text-black w-16 text-2xl items-center justify-center rounded border border-gray-300'>
           {homeInfo['links'].map((link:any) => (
@@ -36,7 +27,14 @@ function Home(props:props) {
         <div className='row-span-1'/>
       </div>
 
-      <div className='overlap3 grid justify-items-center md:hidden'>
+      <div className='col-span-12 md:col-span-10 grid text-center mx-8 md:mx-20 mt-10 md:mt-0 h-fit md:h-full md:content-center place-items-center'>
+        <img className='w-52' src={homeInfo['image']}/>
+        <div className='TitleText font-bold mt-2 uppercase'>{homeInfo['title']}</div>
+        <div className='ParagraphText mt-2 max-w-4xl'>{homeInfo['blurb']}</div>
+        <ColorButton onClick={scrollTo3} children={homeInfo['section3']} className='py-3 px-16 my-5 uppercase'/>
+      </div>
+
+      <div className='col-span-12 flex md:hidden justify-center items-end'>
         <img src={homeInfo['scrollgif']} className='h-16 mb-3'/>
       </div>
 

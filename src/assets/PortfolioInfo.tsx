@@ -9,7 +9,7 @@ const PortfolioInfo:Object = {
         'background': 'images/background.jpg',
         'image': 'images/headshot.png',
         'title': 'Arjan Velovic',
-        'blurb': 'Full Stack Engineer crafting seamless digital experiences. Expert in JavaScript, Python, React, Flask. Explore my portfolio for innovative solutions.',
+        'blurb': 'Full Stack Engineer crafting seamless digital experiences. Expert in Python, JavaScript, React, and Flask. Explore my portfolio for innovative solutions.',
         'section3': 'Projects',
         'scrollgif': 'images/scrollgif.gif',
         'links': [
@@ -36,17 +36,17 @@ const PortfolioInfo:Object = {
         'subtitle': '',
         'abouttitle': 'Get to know me!',
         'abouttext': [
-            "I'm a seasoned Full Stack Engineer, weaving my magic with Python, JavaScript, React, and Flask. By day, I'm deep in the aerospace industry as a Mechanical Engineer, but I've got my sights set on the thrilling world of software engineering. Always on the quest for growth, I recently wrapped up the Coding Temple Full Stack Bootcamp, diving into the latest development practices and frameworks.",
+            "As an enthusiastic software engineer with five years of experience in aerospace mechanical engineering, I bring a dynamic blend of technical expertise and innovation to the table. My journey in full-stack development has been fueled by a passion for learning and growth, culminating in expertise in Python, JavaScript, React, Flask, and SQL. Completing a challenging full-stack software engineering boot camp from Coding Temple has only further enriched my skills and kept me on the cutting edge of industry trends.",
 
-            "My journey is a unique blend of technical expertise and hands-on engineering experience. Whether it's tackling complex problems or crafting elegant solutions, I thrive on the challenge. The boot camp was a game-changer, amplifying my skills and opening new doors in the tech landscape.",
+            "I thrive on collaboration and creativity, always seeking new ways to solve problems and push boundaries in web application development. With a friendly and approachable demeanor, I'm excited to bring my unique background and coding skills to the software development landscape. My portfolio is a reflection of my dedication, showcasing a variety of projects that not only demonstrate technical proficiency but also a commitment to innovation and continuous improvement.",
 
-            "I'm all about embracing the dynamic nature of the software world and contributing meaningfully to transformative projects. If you're passionate about tech and innovation, let's connect and explore how my diverse background can bring a fresh perspective to your team!"
+            "Eager to embrace new challenges and contribute positively to software engineering teams, I'm ready to embark on the next chapter of my career with enthusiasm and determination. "
         ],
 
         'section4': 'Resume',
 
         'skilltitle': 'My Skills',
-        'skills': ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'Flask', 'Django', 'POSTGRESQL', 'SQLITE', 'MATLAB', 'HTML', 'CSS', 'TailWind', 'BootStrap', 'MUI', 'Jinja', 'Next', 'GIT', 'GitHub', 'Firebase', 'CATIA', 'SolidWorks', 'AutoCAD']
+        'skills': ['Python', 'JavaScript', 'TypeScript', 'C++', 'SQL', 'React', 'Flask', 'Django', 'POSTGRESQL', 'SQLITE', 'MySQL', 'MongoDB', 'MATLAB', 'HTML', 'CSS', 'TailWindCSS', 'BootStrap', 'MUI', 'Jinja', 'GitHub', 'Firebase', 'AWS', 'Render', 'Netlify', 'CATIA', 'SolidWorks', 'AutoCAD']
     },
 
     'projects': {

@@ -46,7 +46,7 @@ const PortfolioInfo:Object = {
         'section4': 'Resume',
 
         'skilltitle': 'My Skills',
-        'skills': ['Python', 'JavaScript', 'TypeScript', 'C++', 'SQL', 'React', 'Flask', 'Django', 'POSTGRESQL', 'SQLITE', 'MySQL', 'MongoDB', 'MATLAB', 'HTML', 'CSS', 'TailWindCSS', 'BootStrap', 'MUI', 'Jinja', 'GitHub', 'Firebase', 'AWS', 'Render', 'Netlify', 'CATIA', 'SolidWorks', 'AutoCAD']
+        'skills': ['Python', 'JavaScript', 'TypeScript', 'C++', 'SQL', 'React', 'Flask', 'Django', 'POSTGRESQL', 'SQLITE', 'MySQL', 'MongoDB', 'MATLAB', 'HTML', 'CSS', 'VBA', 'TailWindCSS', 'BootStrap', 'MUI', 'Jinja', 'GitHub', 'Firebase', 'AWS', 'Render', 'Netlify', 'CATIA', 'SolidWorks', 'AutoCAD']
     },
 
     'projects': {
